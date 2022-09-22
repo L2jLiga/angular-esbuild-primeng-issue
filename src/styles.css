@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+@import "primeng/resources/primeng.css";
+@import "primeng/resources/components/button/button.css";
+
+.p-button {
+  color: #212529;
+  background: #FFE082;
+  border: 1px solid #FFE082;
+  padding: 0.429rem 1rem;
+  font-size: 1rem;
+  transition: background-color 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s;
+  border-radius: 3px;
+}
+.p-button:enabled:hover {
+  background: #FFD54F;
+  color: #212529;
+  border-color: #FFD54F;
+}
+.p-button:enabled:active {
+  background: #FFCA28;
+  color: #212529;
+  border-color: #FFCA28;
+}
